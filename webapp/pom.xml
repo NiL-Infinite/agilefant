@@ -273,14 +273,22 @@
 		<dependency>
 			<groupId>net.sf.flexjson</groupId>
 			<artifactId>flexjson</artifactId>
-			<version>2.1</version>
+			<version>2.0</version>
 		</dependency>
 		<!-- <dependency>
-			<groupId>org.apache.struts</groupId>
+			<groupId>com.struts2jsonresult.struts2jsonresult</groupId>
 			<artifactId>struts2jsonresult</artifactId>
-			<version>2.5.14.1</version>
+			<version>0.99</version>
 		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-json-plugin -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-json-plugin</artifactId>
+			<version>2.5.14.1</version>
+		</dependency>
 	</dependencies>
+
+	
 
 	<profiles>
 		<profile>

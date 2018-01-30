@@ -20,7 +20,7 @@
     
     <result-types>
       <!-- JSON result type -->
-      <result-type name="json" default="true" class="code.google.struts2jsonresult.JSONResult">
+      <result-type name="json" default="true" class="org.apache.struts2.json.JSONResult">
         <param name="prettyPrint">true</param>
         <param name="out.noCache">true</param>
       </result-type>
